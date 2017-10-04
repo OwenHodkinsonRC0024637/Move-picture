@@ -16,5 +16,10 @@ namespace WindowsFormsApp3
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            pictureBox2.Location = new Point(pictureBox2.Location.X + 5, pictureBox2.Location.Y);
+        }
     }
 }
